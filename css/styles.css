@@ -11,3 +11,7 @@ h2{
   color: red;
   text-shadow: 2px 2px black;
 }
+
+h3{
+  font-size: 20px;
+}
