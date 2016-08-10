@@ -6,7 +6,7 @@ $(document).ready(function() {
     $("#ibirth").text($("#born").val());
     $("#iname").text($("#name").val());
     $("#ifood").text($("input:radio[name=food]:checked").val());
-    $("#icolor").text($("#color").val());
+    $("body").css("background-color", $("#color").val());
     $("#inumber").text($("#creditnumber").val());
 
   });
